@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Application</key>
+	<array>
+		<dict>
+			<key>profileURL</key>
+			<string>https://dxc.dxi-na1.saas.broadcom.com/api/1/urn:ca:tenantId:6D85F3FC-2EF8-4471-8804-BE3B74D6785C/urn:ca:appId:Aruna_BCBS/profile</string>
+			<key>baseURL</key>
+			<string>https://dxc.dxi-na1.saas.broadcom.com</string>
+			<key>collectorUploadURL</key>
+			<string>https://dxc.dxi-na1.saas.broadcom.com/api/1/urn:ca:tenantId:6D85F3FC-2EF8-4471-8804-BE3B74D6785C/urn:ca:appId:Aruna_BCBS/mobileMetrics</string>
+			<key>appId</key>
+			<string>Aruna_BCBS</string>
+			<key>tenantID</key>
+			<string>6D85F3FC-2EF8-4471-8804-BE3B74D6785C</string>
+			<key>appKey</key>
+			<string>a84f6970-252f-11ec-b329-574feaff86f9</string>
+		</dict>
+	</array>
+</dict>
+</plist>

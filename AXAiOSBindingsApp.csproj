@@ -30,6 +30,8 @@
 		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
 		<ApplicationVersion>1</ApplicationVersion>
 
+		<ForceSimulatorX64ArchitectureInIDE>true</ForceSimulatorX64ArchitectureInIDE>
+
 		<!-- To develop, package, and publish an app to the Microsoft Store, see: https://aka.ms/MauiTemplateUnpackaged -->
 		<WindowsPackageType>None</WindowsPackageType>
 
@@ -61,9 +63,13 @@
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
-		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.0-rc.2.24473.5" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="$(MauiVersion)" />
 	</ItemGroup>
+	
 	<ItemGroup Condition="'$(TargetFramework)' == 'net8.0-ios' Or '$(TargetFramework)' == 'net9.0-ios'">
 	  <PackageReference Include="AXAiOSBindings_MAUI" Version="29.99.99" />
+	</ItemGroup>
+	<ItemGroup>
+	  <BundleResource Include="Aruna_BCBS_camdo.plist" />
 	</ItemGroup>
 </Project>
